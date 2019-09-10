@@ -1,0 +1,7 @@
+C:\Users\elias\GitHub\C-sharp-projects\Test projekt\Mindsweper\bin\Debug\Mindsweper.exe.config
+C:\Users\elias\GitHub\C-sharp-projects\Test projekt\Mindsweper\bin\Debug\Mindsweper.exe
+C:\Users\elias\GitHub\C-sharp-projects\Test projekt\Mindsweper\bin\Debug\Mindsweper.pdb
+C:\Users\elias\GitHub\C-sharp-projects\Test projekt\Mindsweper\obj\Debug\Mindsweper.csprojAssemblyReference.cache
+C:\Users\elias\GitHub\C-sharp-projects\Test projekt\Mindsweper\obj\Debug\Mindsweper.csproj.CoreCompileInputs.cache
+C:\Users\elias\GitHub\C-sharp-projects\Test projekt\Mindsweper\obj\Debug\Mindsweper.exe
+C:\Users\elias\GitHub\C-sharp-projects\Test projekt\Mindsweper\obj\Debug\Mindsweper.pdb
