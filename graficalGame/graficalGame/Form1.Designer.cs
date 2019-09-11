@@ -37,6 +37,7 @@
 			this.imgBox7 = new System.Windows.Forms.PictureBox();
 			this.imgBox8 = new System.Windows.Forms.PictureBox();
 			this.imgBox9 = new System.Windows.Forms.PictureBox();
+			this.panel1 = new System.Windows.Forms.Panel();
 			((System.ComponentModel.ISupportInitialize)(this.imgBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.imgBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.imgBox3)).BeginInit();
@@ -138,11 +139,21 @@
 			this.imgBox9.TabStop = false;
 			this.imgBox9.Click += new System.EventHandler(this.BoxClick);
 			// 
+			// panel1
+			// 
+			this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.panel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+			this.panel1.Location = new System.Drawing.Point(441, 119);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(200, 100);
+			this.panel1.TabIndex = 12;
+			// 
 			// FormMain
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.imgBox9);
 			this.Controls.Add(this.imgBox8);
 			this.Controls.Add(this.imgBox7);
@@ -180,6 +191,7 @@
 		private System.Windows.Forms.PictureBox imgBox7;
 		private System.Windows.Forms.PictureBox imgBox8;
 		private System.Windows.Forms.PictureBox imgBox9;
+		private System.Windows.Forms.Panel panel1;
 	}
 }
 
