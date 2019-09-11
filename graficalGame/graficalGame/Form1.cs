@@ -10,17 +10,42 @@ using System.Windows.Forms;
 
 namespace graficalGame
 {
-	public partial class Form1 : Form
+	public partial class FormMain : Form
 	{
-		public Form1()
+		
+
+		public FormMain()
 		{
 			InitializeComponent();
 		}
 
-		private void Button1_Click(object sender, EventArgs e)
+		private void FormMain_Load(object sender, EventArgs e)
 		{
-			this.label1.Text = "hej elias";
-			this.label2.BackColor = Color.Green;
+
+		}
+
+
+
+		private void BoxClick(object sender, EventArgs e)
+		{
+			PictureBox clickedBox = sender as PictureBox;
+
+			if(clickedBox != null)
+			{
+				if(clickedBox.BackColor == Color.White)
+				{
+					clickedBox.BackColor = Color.Green;
+				}
+				else
+				{
+					clickedBox.BackColor = Color.White;
+				}
+			}
+		}
+
+		private void FormMain_KeyPress(object sender, KeyPressEventArgs e)
+		{
+
 		}
 	}
 }
